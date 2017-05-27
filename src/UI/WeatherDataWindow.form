@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.WeatherDataWindow">
+  <grid id="27dc6" binding="forecastDetailPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="24" y="20" width="496" height="638"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7295f" class="javax.swing.JLabel" binding="forecastDetailTitle">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font name="Calibri" size="36"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="3 Day Forecast"/>
+        </properties>
+      </component>
+      <grid id="c9d66" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="3af8f" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="619b2" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="35" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="5b344" class="javax.swing.JLabel" binding="dayOneTitle">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="24"/>
+                      <text value="Day 1 Title"/>
+                    </properties>
+                  </component>
+                  <component id="dfaed" class="javax.swing.JLabel" binding="dayOneWindSpeed">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="be7ef" class="javax.swing.JLabel" binding="dayOneVisibility">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="ba6c2" class="javax.swing.JLabel" binding="dayOneWindDirection">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="950ab" class="javax.swing.JLabel" binding="dayOneHumidity">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="12357" class="javax.swing.JLabel" binding="dayOnePressure">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="d43c4" class="javax.swing.JLabel" binding="dayOneSunrise">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="80a02" class="javax.swing.JLabel" binding="dayOneSunset">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="65000" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="198e8" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="20" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="ee909" class="javax.swing.JLabel" binding="dayTwoTitle">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="24"/>
+                      <text value="Day 2 Title"/>
+                    </properties>
+                  </component>
+                  <component id="4cdfc" class="javax.swing.JLabel" binding="dayTwoWindSpeed">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="dd572" class="javax.swing.JLabel" binding="dayTwoVisibility">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="ac8b0" class="javax.swing.JLabel" binding="dayTwoWindDirection">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="686ad" class="javax.swing.JLabel" binding="dayTwoHumidity">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="badde" class="javax.swing.JLabel" binding="dayTwoPressure">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="392ad" class="javax.swing.JLabel" binding="dayTwoSunrise">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                  <component id="39632" class="javax.swing.JLabel" binding="dayTwoSunset">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Calibri" size="18"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="b1df1" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="0" bottom="10" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="18"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5cf83" class="javax.swing.JLabel" binding="dayThreeTitle">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="24"/>
+                  <text value="Day 3 Title"/>
+                </properties>
+              </component>
+              <component id="7e44" class="javax.swing.JLabel" binding="dayThreeWindSpeed">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="74bb7" class="javax.swing.JLabel" binding="dayThreeVisibility">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="d3bac" class="javax.swing.JLabel" binding="dayThreeWindDirection">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="e9c3e" class="javax.swing.JLabel" binding="dayThreeHumidity">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="da3ae" class="javax.swing.JLabel" binding="dayThreePressure">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="3c034" class="javax.swing.JLabel" binding="dayThreeSunrise">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="94c3f" class="javax.swing.JLabel" binding="dayThreeSunset">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="18"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
